@@ -1,0 +1,47 @@
+{
+  "BER_ALVO": 0.001,
+  "CANAIS": [
+    "awgn",
+    "rajadas"
+  ],
+  "CODIGOS_LINHA": [
+    "Manchester",
+    "AMI"
+  ],
+  "EBN0_DB": [
+    0,
+    2,
+    4,
+    6,
+    8,
+    10,
+    12,
+    14,
+    16
+  ],
+  "MENSAGEM": "Redes de Computadores - Unisinos 2026: transmissao digital com ruido!",
+  "MODULACOES": [
+    "BPSK",
+    "QPSK",
+    "16QAM"
+  ],
+  "N_BITS": 100000,
+  "PASTA_FIGURAS": "figuras",
+  "PASTA_RESULTADOS": "resultados",
+  "RAJADA_FATOR_RUIDO": 100,
+  "RAJADA_P_BOM_PARA_RUIM": 0.002,
+  "RAJADA_P_RUIM_PARA_BOM": 0.05,
+  "SEMENTES": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "_execucao": {
+    "data": "2026-11-19 16:59:22",
+    "duracao_s": 2.9,
+    "python": "3.12.4",
+    "numpy": "2.0.1"
+  }
+}
